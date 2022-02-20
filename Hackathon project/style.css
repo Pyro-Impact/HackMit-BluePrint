@@ -25,8 +25,18 @@ body, html {
     background-repeat: no-repeat;
 }
 /*calendar*/
-
+.calendar{
+    display:flex;
+    justify-content: flex-end;
+    height:20px;
+    width:20px;
+    background-color:#c22dbb;
+    
+}
 /*mood*/
+.mood{
+    width:100%;
+}
 #moodtitle{
     text-indent: 70px;
     color:#0e0036;
@@ -37,12 +47,20 @@ body, html {
 .emoji{
     display:flex;
     justify-content: space-around;
+    height:25vw;
+    width:100%;
+    height:width;
+}
+.face{
+    background-size:contain;
+    width:25%;
+    background-repeat: no-repeat;
 }
 /*sad*/
 .sad{
     background-image: url("sad\ b&w.png");
-    width: 230px;
-    height: 230px;
+    /*height: 230px;
+    width: 18.5%;*/
     /*background-repeat: no-repeat;*/
 }
 .sad:hover{
@@ -54,8 +72,6 @@ body, html {
 /*neutral*/
 .neutral{
     background-image: url("neutral\ b&w.png");
-    width: 230px;
-    height: 230px;
     /*background-repeat: no-repeat;*/
 }
 .neutral:hover{
@@ -68,8 +84,6 @@ body, html {
 /*smile*/
 .smile{
     background-image: url("smiling\ b&w.png");
-    width: 230px;
-    height: 230px;
     /*background-repeat: no-repeat;*/
 }
 .smile:hover{
@@ -82,8 +96,6 @@ body, html {
 /*happy*/
 .happy{
     background-image: url("happy\ b&w.png");
-    width: 230px;
-    height: 230px;
     /*background-repeat: no-repeat;*/
 }
 .happy:hover{
