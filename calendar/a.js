@@ -1,27 +1,3 @@
-/*document.addEventListener('DOMContentLoaded', function() {
-    var button = document.createElement('input');
-    button.type = 'button';
-    button.id = 'submit';
-    button.value = 'Submit';
-    button.className = 'btn';
- 
-    button.onclick = function() {
-        function load()
-        {
-            document.getElementById('dycalendar').addEventListener('click', clicked);
-        }
-    };
- 
-    var container = document.getElementById('container');
-    console.log(button);
-}, false);
-
-function clicked(event)
-{   
-    
-    console.log(event);
-}*/
-
 function showbox()
 {
     if (document.querySelector("#inputbox").style.display === "none") {
@@ -38,11 +14,30 @@ function hidebox()
 }
 
 let v = [];
+/*
+const calendar = [];
+
+const day1 = {
+    date: new Date("Febuary 20, 2022"),
+    event: ["birthday", "party"],
+}
+
+const day2 = {
+    date: new Date("Feb 21, 2022"),
+    event: ["stuff"],
+}
+
+calendar = [day1, day2];*/
 
 document.addEventListener("DOMContentLoaded", function(event) {
     let a = localStorage.getItem("Events");
     document.querySelector("#aa").value = a;
-    console.log(a);
+    /*for (const day of calendar) {
+        if (day.date === new Date()) {
+            console.log(day.event);
+        }
+        console.log(day.date);
+    }*/
 });
 
 document.addEventListener("keyup", function(event) {
@@ -50,6 +45,10 @@ document.addEventListener("keyup", function(event) {
         let a = document.querySelector("#aa").value;
         v.push(a);
         localStorage.setItem("Events", v); 
-        console.log(a);
+        for (const i of v) {
+            if (i.substring(0, 6) === "Feb 20") {
+                console.log("Today: " + i.substring(7));
+            }
+        }
     }
 });
