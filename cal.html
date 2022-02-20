@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Project</title>
+        <link rel="stylesheet" href="dycalendar.css"> <!-- open source: https://github.com/yusufshakeel/dyCalendarJS--> 
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <pl> <p2><div id = "box">
+            <div class = "container">
+                <div id = "dycalendar" class = "dycalendar-container"></div>
+            </div></div>
+        </p2></pl>
+        <script src="dycalendar.js"></script>  <!-- open source: https://github.com/yusufshakeel/dyCalendarJS--> 
+    <script>
+        dycalendar.draw({
+            target: "#dycalendar",
+            type: "month",
+            dayformat: "full",
+            monthformat: "full",
+            highlighttoday: true,
+            highlightedtargetdate: true,
+            prevnextbutton: "show",
+        });
+    </script>
+    </body>
+</html>
