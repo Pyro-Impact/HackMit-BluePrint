@@ -1,13 +1,23 @@
-<<<<<<< HEAD
 body {
     margin: 0;
     padding: 0;
     box-sizing: border box;
-    font-family: Helvetica;
+    font-family: sans-serif;
 }
 #box {
     position: relative;
     z-index: 1000;
+}
+txt {
+    color: #AACCFF !important;
+    letter-spacing: 7px;
+    font-size: 50px;
+    border-color: #AACCFF;
+    border-radius: 5px;
+    border-style: groove;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 pl {
     position: relative;
@@ -15,7 +25,7 @@ pl {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #161623;
+    background: #12121b;
     overflow: hidden;
 }
 pl::before {
@@ -64,19 +74,22 @@ p2::after {
     backdrop-filter: blur(25px);
     background: rgba(255, 255, 255, 0.1);
     width: 500px;
-    min-height: 400px;
-    border-radius: 10px;
+    min-height: 500px;
+    border-radius: 20px;
 }
 #dycalendar
 {
     width: 100%;
     padding: 20px;
+    min-height: 500px;
+    border-radius: 20px;
 }
 #dycalendar table
 {
     width: 100%;
     margin-top: 40px;
     border-spacing: 5px;
+    border-radius: 20px;
 }
 #dycalendar table tr:nth-child(1) td
 {
@@ -134,6 +147,12 @@ p2::after {
     font-size: 1.5em;
     font-weight: 500;
 }
-=======
-/*css*/
->>>>>>> 19d5ada421b9bfa68814a6068d513c51b77d44e9
+#inputbox
+{
+    display: none;
+}
+input
+{
+    border-style: groove;
+    border-color: green;
+}

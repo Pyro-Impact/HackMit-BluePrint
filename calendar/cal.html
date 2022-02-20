@@ -5,11 +5,15 @@
         <title>Project</title>
         <link rel="stylesheet" href="dycalendar.css"> <!-- open source: https://github.com/yusufshakeel/dyCalendarJS--> 
         <link rel="stylesheet" href="style.css">
+        <script src="a.js"></script>
     </head>
-    <body>
+    <body onload = "load()">
         <pl> <p2><div id = "box">
+            <h3><txt>Life Calendar</txt></h3></div>
+            <div>
             <div class = "container">
-                <div id = "dycalendar" class = "dycalendar-container"></div>
+                <div id="inputbox"><input type="text" id = "aa"/></div>
+                <div onClick = "showbox()" id = "dycalendar" class = "dycalendar-container"></div>
             </div></div>
         </p2></pl>
         <script src="dycalendar.js"></script>  <!-- open source: https://github.com/yusufshakeel/dyCalendarJS--> 
