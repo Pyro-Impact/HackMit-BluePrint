@@ -40,7 +40,7 @@ function hidebox()
 let v = [];
 
 document.addEventListener("DOMContentLoaded", function(event) {
-    let a = localStorage.getItem("inputText");
+    let a = localStorage.getItem("Events");
     document.querySelector("#aa").value = a;
     console.log(a);
 });
@@ -49,7 +49,7 @@ document.addEventListener("keyup", function(event) {
     if (event.code === 'Enter') {
         let a = document.querySelector("#aa").value;
         v.push(a);
-        localStorage.setItem("inputText", v); 
+        localStorage.setItem("Events", v); 
         console.log(a);
     }
 });
