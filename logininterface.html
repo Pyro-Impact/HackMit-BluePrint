@@ -1,20 +1,52 @@
 <!DOCTYPE html>
 <html>
+
     <head>
-        <title>CalendarWebsite</title>
+        <title>ARRA</title>
         <link type='text/css' href = 'style.css' rel='stylesheet'/>
+        <!--trivia links-->
+        <link rel="stylesheet"
+              href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap">
+        <link rel = "stylesheet"
+              href= "https://fonts.googleapis.com/css2?family=Staatliches&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap">
+        <link rel = "stylesheet"
+              href= "https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Staatliches&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap">
+        <!--trivia links end-->
     </head>
+
     <body>
-        <div>
-            <h1>Hello, welcome to CalendarWebsite!</h1>
-            <h3>Please enter your username and password.</h3>
+
+        <!--home page-->
+        <div class="homePage" id="homeSection">
+            <div class="homePageTop">
+                <h1>ARRA Calendar</h1>
+            </div>
+            <div class="homePageTopDesc">
+                <h1 class="homePageTopDesc1">Hello! Welcome to ARRA Calendar!</h1>
+                <h3 class="homePageTopDesc2">We're the all-in-one go to for keeping track of your life.  You can set goals, keep track of your mood, keep a to-do list, do our workouts, and work on eating healthy!</h3>
+            </div>
+            <div>
+                <a href="cal.html"><button onclick class="homePageStart">Let's get started!</button></a>
+            </div>
+            <div class="homePagePics">
+                <img width=300 height=300 src="https://docs.google.com/drawings/d/e/2PACX-1vRT03hwB5zHsHa6X9flu9NdmBTpuDH-MMj_3pPFtzZpAF_zPUX-RJjOczV1YSY4KcD9IXdMvcGTI3sE/pub?w=723&h=723">
+                <img width=300 height=300 src="https://docs.google.com/drawings/d/e/2PACX-1vSBof1cTvxQyPG7tqww2NdtL_s9KxBRbyv9zGc49WltaQFOUFuZ3MULwcfjVmUGRnHhb34aNcWjvQWh/pub?w=723&h=723">
+                <img width=300 height=300 src="https://docs.google.com/drawings/d/e/2PACX-1vShNOdUPLzOK2AD48JABPP8khTxPxYUinjs6f9_9GK-gmRryY_Cmj-rNk9KwtMnoEU61aE9SXYcf8-9/pub?w=723&h=723">
+                <img width=300 height=300 src="https://docs.google.com/drawings/d/e/2PACX-1vSAesri1tbz3xjvkDu2OvQhGg6yUfp72EkU3Z8IssFlI8kJGM7C45c0SKwfqn1cTkSEuAnwqmdy-pD4/pub?w=723&h=723">
+            </div>
+            <div class="homePageTitle">
+                <h3 class="homePageTitle1">Mood Checker</h3>
+                <h3 class="homePageTitle2">To-do List</h3>
+                <h3 class="homePageTitle3">Workout</h3>
+                <h3 class="homePageTitle4">Nutrition</h3>
+            </div>
+            <div class="homePageDesc">
+                <h5 class="homePageDesc1">You can keep track of how you're feeling with our mood checker!</h5>
+                <h5 class="homePageDesc2">Keep track of your tasks!</h5>
+                <h5 class="homePageDesc3">Having trouble staying fit? Our workouts will keep you motivated!</h5>
+                <h5 class="homePageDesc4">Stay healthy by keeping track of your meals!</h5>
+            </div>
         </div>
-        <form>
-            <h3>Username</h3>
-            <input id="username" onClick="getRandomImage()">
-            <h3>Username</h3>
-            <input id="password" onClick="getSpecificImage()">
-        </form>
     </body>
 </html>
 

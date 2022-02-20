@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Planner</title>
+        <link tyle="text/css" href="style.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <!--button-->
+        <!--button-->
+        <!--button-->
+        <!--button-->
+        <!--button-->
+        <a href="cal.html"><button onclick class="indexToCal">Back to Calendar</button></a>
+        
+
+
+
+
+        <div class="body-content">
+            <div class="heading">
+                <h1 class="title">Daily Planner</h1>
+                <!--calendar-->
+            </div>
+            <div class="mood">
+                <h4 id="moodtitle">My mood for today</h4>
+                <div class="emoji">
+                    <div class="sad" onClick="changeColor(event)"></div>
+                    <div class="neutral" onClick="changeColor(event)"></div>
+                    <div class="smile" onClick="changeColor(event)"></div>
+                    <div class="happy" onClick="changeColor(event)"></div>
+                    <!--<img id="sad" width="150" height="150" src="sad b&w.png">
+                    <img id="neutral" width="150" height="150" src="neutral b&w.png">
+                    <img id="smile" width="150" height="150" src="smiling b&w.png">
+                    <img id="happy" width="150" height="150" src="happy b&w.png">-->
+                </div>
+            </div>
+            <br><br><br>
+            <div class="two">
+                <div class="to-do inside">
+                    <br><br><br><br><br><br><br>
+                    <h4 class="titletwo">To-do list</h4>
+                    <div class="txt">
+                        <label for="read">Work</label>
+                        <input id="read" name="book" type="checkbox" value="read">
+                        <br>
+                        <label for="workout">Workout</label>
+                        <input id="workout" name="sport" type="checkbox" value="workout">
+                        <br>
+                        <label for="meditate">Eat healthy meals</label>
+                        <input id="meditate" name="zen" type="checkbox" value="meditate">
+                    </div>
+                </div>
+                <div class="v1"></div>
+                    <div class="workout inside">
+                        <h4 class="titletwo">Workout For The day</h4>
+                        <div class="txt">
+                        <label for="LegWorkout">Workout nr.1 (Leg Workout)</label>
+                        <input id="LegWorkout" name="answer" value="leg" type="radio">
+                        <br>
+                        <label for="AbWorkout">Workout nr.2 (Ab Workout)</label>
+                        <input id="AbWorkout" name="answer" value="ab" type="radio">
+                    </div>
+                </div>
+                <div class="v1"></div>
+                <div class="food inside">
+                    <h4 class="titletwo">Food</h4>
+                    <div class="txt">
+                        <label for="breakfast">Breakfast:</label>
+                        <input type="text" name="breakfast" id="breakfast">
+                        <br>
+                        <label for="lunch">Lunch:</label>
+                        <input type="text" name="lunch" id="lunch">
+                        <br>
+                        <label for="dinner">Dinner:</label>
+                        <input type="text" name="dinner" id="dinner">
+                    </div>
+                </div>
+            </div>
+            <!--<div class="three">
+                <a href="./trivia.html">Trivia Quiz!</a>
+            </div>-->
+        </div>
+    </body>
+</html>
+<script src="brain.js"></script>

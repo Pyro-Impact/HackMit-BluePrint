@@ -1,0 +1,637 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Staatliches&family=Zen+Kaku+Gothic+Antique:wght@300&display=swap');
+
+/*home page*/
+
+.homePageTop {
+    background-color: #63cdda;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    margin: 0px;
+}
+
+.homePageTopDesc{
+    margin: 20px;
+    font-family: "Raleway";
+    font-size: 30px;
+    text-align: center;
+    padding: 50px;
+}
+.homePageTopDesc1{
+    padding: 20px;
+    font-family: "Staatliches";
+}
+.homePageTopDesc2{
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.homePageStart{
+    background-color: #63cdda;
+    color:white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    font-family: "Staatliches";
+    font-size: 50px;
+    text-align: center;
+
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    width: 30%;
+    height: 100px;
+    padding: 50px;
+}
+.homePageStart:hover{
+    cursor:pointer;
+    background-color: white;
+    color: #63cdda
+}
+
+.homePagePics{
+    display: flex;
+    outline: none;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.homePageTitle{
+    font-family: "Staatliches";
+    color: #63cdda;
+    font-size: 40px;
+    display: flex;
+    outline: none;
+    justify-content: space-around;
+    margin: 10px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+.homePageTitle1{
+    width: 20%;
+}
+.homePageTitle2{
+    width: 20%;
+}
+.homePageTitle3{
+    width: 20%;
+}
+.homePageTitle4{
+    width: 20%;
+}
+
+.homePageDesc{
+    font-family: "Raleway";
+    font-size: 30px;
+    display: flex;
+    outline: none;
+    justify-content: space-around;
+    margin-top: 0px;
+}
+
+.homePageDesc1{
+    width: 20%;
+}
+.homePageDesc2{
+    width: 20%;
+}
+.homePageDesc3{
+    width: 20%;
+}
+.homePageDesc4{
+    width: 20%;
+}
+
+/*buttons*/
+.calToIndex{
+    background-color: #63cdda;
+    color:white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    font-family: "Staatliches";
+    font-size: 50px;
+    text-align: center;
+
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    width: 20%;
+    height: 50px;
+    padding: 50px;
+}
+.calToTrivia{
+    background-color: #63cdda;
+    color:white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    font-family: "Staatliches";
+    font-size: 50px;
+    text-align: center;
+
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    width: 20%;
+    height: 50px;
+    padding: 50px;
+}
+.calToHome{
+    background-color: #63cdda;
+    color:white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    font-family: "Staatliches";
+    font-size: 50px;
+    text-align: center;
+
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    width: 20%;
+    height: 50px;
+    padding: 50px;
+}
+.indexToCal{
+    background-color: #63cdda;
+    color:white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    font-family: "Staatliches";
+    font-size: 50px;
+    text-align: center;
+
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    width: 30%;
+    height: 100px;
+    padding: 50px;
+}
+.triviaToCal{
+    background-color: #63cdda;
+    color:white;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    font-family: "Staatliches";
+    font-size: 50px;
+    text-align: center;
+
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    width: 30%;
+    height: 100px;
+    padding: 50px;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border box;
+    font-family: sans-serif;
+}
+#box {
+    position: relative;
+    z-index: 1000;
+}
+txt {
+    color: #63cdda !important;
+    letter-spacing: 7px;
+    font-size: 50px;
+    border-color: #63cdda;
+    border-radius: 5px;
+    border-style: groove;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+pl {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #12121b;
+    overflow: hidden;
+}
+pl::before {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: linear-gradient(green, rgb(0, 102, 255));
+    content: '';
+    position: absolute;
+    transform: translate(-700px, -300px);
+}
+pl::after {
+    content: '';
+    border-radius: 50%;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(coral, purple);
+    transform: translate(600px, 300px);
+}
+p2::before {
+    content: '';
+    border-radius: 50%;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(#373B44, #4286f4);
+    transform: translate(-600px, 300px);
+}
+p2::after {
+    content: '';
+    border-radius: 50%;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(#b92b27, #1565C0);
+    transform: translate(600px, -700px);
+}
+.container {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(25px);
+    background: rgba(255, 255, 255, 0.1);
+    width: 500px;
+    min-height: 500px;
+    border-radius: 20px;
+}
+#dycalendar
+{
+    width: 100%;
+    padding: 20px;
+    min-height: 500px;
+    border-radius: 20px;
+}
+#dycalendar table
+{
+    width: 100%;
+    margin-top: 40px;
+    border-spacing: 5px;
+    border-radius: 20px;
+}
+#dycalendar table tr:nth-child(1) td
+{
+    background: #fff;
+    color: black;
+    border-radius: 5px;
+    font-weight: 600;
+}
+#dycalendar table td
+{
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+#dycalendar table td:hover{
+    background: rgb(199, 190, 190);
+    color: black !important;
+}
+.dycalendar-month-container .dycalendar-today-date,
+.dycalendar-month-container .dycalendar-target-date
+{
+    background: #fff;
+    color: black !important;
+}
+.dycalendar-month-container .dycalendar-header
+.dycalendar-prev-next-btn.prev-btn
+{
+    background: white;
+    color: black;
+    width: 45px;
+    height: 40px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.dycalendar-month-container .dycalendar-header
+.dycalendar-prev-next-btn.next-btn
+{
+    background: white;
+    color: black;
+    width: 45px;
+    height: 40px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.dycalendar-month-container .dycalendar-span-month-year
+{
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+#inputbox
+{
+    display: none;
+}
+input
+{
+    border-style: groove;
+    border-color: green;
+}
+
+
+
+
+/*IMPORTED CODE FROM Hackathon FOLDER!!!*/
+/*IMPORTED CODE FROM Hackathon FOLDER!!!*/
+/*IMPORTED CODE FROM Hackathon FOLDER!!!*/
+/*IMPORTED CODE FROM Hackathon FOLDER!!!*/
+/*IMPORTED CODE FROM Hackathon FOLDER!!!*/
+/*IMPORTED CODE FROM Hackathon FOLDER!!!*/
+/*IMPORTED CODE FROM Hackathon FOLDER!!!*/
+.title{
+    color:#101111;
+}
+.heading{
+    /*display:flex;
+    justify-content: center;
+    height:80px;
+    width:600px;
+    border-radius: 50px;
+    background-color:#2dc2ae;
+    margin: auto;
+    width: 50%;
+    padding: 10px;*/
+    background-color: #63cdda;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 50px;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    margin: 0px;
+    margin-top: 20px;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+body, html {
+    height: 100%;
+}
+.body-content{
+    background-image: url("backgroundimg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/*calendar*/
+
+/*mood*/
+#moodtitle{
+    /*text-indent: 70px;
+    color:#0e0036;
+    text-decoration: underline;
+    text-shadow: #101111 2px;
+    font-size: 30px;*/
+    font-family: "Staatliches";
+    color: #63cdda;
+    font-size: 40px;
+    display: flex;
+    outline: none;
+    justify-content: space-around;
+    margin: 10px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+.emoji{
+    display:flex;
+    justify-content: space-around;
+}
+/*sad*/
+.sad{
+    background-image: url("sad\ b&w.png");
+    width: 230px;
+    height: 230px;
+    /*background-repeat: no-repeat;*/
+}
+.sad:hover{
+    cursor:pointer;
+}
+.sad.active{
+    background-image: url("sad.png");
+}
+/*neutral*/
+.neutral{
+    background-image: url("neutral\ b&w.png");
+    width: 230px;
+    height: 230px;
+    /*background-repeat: no-repeat;*/
+}
+.neutral:hover{
+    cursor:pointer;
+    background-image: url("neutral.png");
+}
+.neutral.active{
+    background-image: url("neutral.png");
+}
+/*smile*/
+.smile{
+    background-image: url("smiling\ b&w.png");
+    width: 230px;
+    height: 230px;
+    /*background-repeat: no-repeat;*/
+}
+.smile:hover{
+    cursor:pointer;
+    background-image: url("smiling.png");
+}
+.smile.active{
+    background-image: url("smiling.png");
+}
+/*happy*/
+.happy{
+    background-image: url("happy\ b&w.png");
+    width: 230px;
+    height: 230px;
+    /*background-repeat: no-repeat;*/
+}
+.happy:hover{
+    cursor:pointer;
+    background-image: url("happy.png");
+}
+.happy.active{
+    background-image: url("happy.png");
+}
+/*second section*/
+.inside{
+    text-indent: 20px;
+}
+.titletwo{
+    /*display:flex;
+    justify-content:center;
+    font-size:25px;
+    font-family: 'Times New Roman', Times, serif;*/
+    font-family: "Staatliches";
+    color: #63cdda;
+    font-size: 40px;
+    display: flex;
+    outline: none;
+    justify-content: space-around;
+    margin: 10px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+.two{
+    display:flex;
+    justify-content: space-around;
+}
+.to-do{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius:25px;
+    width:400px;
+    height:250px;
+
+    font-family: "Raleway";
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    outline: none;
+    justify-content: space-around;
+    margin-top: 0px;
+}
+.workout{
+    border-radius:25px;
+    width:400px;
+    height:250px;
+}
+.food{
+    border-radius:25px;
+    width:400px;
+    height:250px;
+}
+.v1 {
+    border-left: 2px solid rgb(0, 0, 0);
+    height: 500px;
+}
+.txt{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 30px;
+
+    font-family: "Raleway";
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    outline: none;
+    justify-content: space-around;
+    margin-top: 0px;
+}
+/*to do*/
+#read{
+    height:30px;
+    width: 30px;
+}
+#workout{
+    height:30px;
+    width: 30px;
+}
+#meditate{
+    height:30px;
+    width: 30px;
+}
+/*workout*/
+#LegWorkout{
+    height:30px;
+    width: 30px;
+}
+#AbWorkout{
+    height:30px;
+    width: 30px;
+}
+/*Food*/
+#breakfast{
+    background-color:#c9edf1;
+    color:rgb(37, 46, 46);
+    height:20px;
+    width: 160px;
+
+    font-family: "Raleway";
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    outline: none;
+    justify-content: space-around;
+    margin-top: 0px;
+}
+#lunch{
+    background-color:#c9edf1;
+    color:rgb(37, 46, 46);
+    height:20px;
+    width: 160px;
+
+    font-family: "Raleway";
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    outline: none;
+    justify-content: space-around;
+    margin-top: 0px;
+}
+#dinner{
+    background-color:#c9edf1;
+    color:rgb(37, 46, 46);
+    height:20px;
+    width: 160px;
+
+    font-family: "Raleway";
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    outline: none;
+    justify-content: space-around;
+    margin-top: 0px;
+}
+/*third section*/
+.three{
+    display:flex;
+    justify-content: center;
+}
